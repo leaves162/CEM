@@ -54,7 +54,7 @@ We have already provided the generated files in this path, which you can use dir
 - *Dynamic Caching Strategy*. We embed this function before batch generation. If you want to test it separately, you can run [`DiT/CEM_utils/DCS_module.py`](DiT/CEM_utils/DCS_module.py) directly.
 - *Plug-and-Play Deployment*. We replace the cache intervals in the original method with the optimized cache intervals. This batch generation is a benchmark of 50,000 images from ImageNet categories:
   ```
-  bash CEM.sh
+  bash DiT/CEM.sh
   ```
 
 ### 2.2 Text-to-Image Models (FLUX.1-dev)
